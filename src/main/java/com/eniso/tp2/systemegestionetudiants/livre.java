@@ -35,4 +35,28 @@ public class livre {
         this.auteur= auteur ;
     }
     
+   public livre (String titre , String auteur){
+    this.titre= titre  ;
+    this.auteur= auteur;
+    this.annee=1956;
+    this.isbn= 20 ;
+   
+    } 
+    public livre (String titre , String auteur , int annee){
+    this.titre= titre;
+    this.auteur= auteur ;
+    this.annee= annee;
+   
+    this.isbn= 56 ;
+   
+    
+   }
+    public livre (){
+    this.titre= "fleur rouge";
+    this.auteur= " ali";
+    this.annee= 1236;
+    this.isbn= 56;
+     }
+
+    
 }
